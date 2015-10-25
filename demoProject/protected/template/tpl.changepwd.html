@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+  <meta charset="UTF-8">
+  <title>修改密码</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="renderer" content="webkit">
+  <meta http-equiv="Cache-Control" content="no-siteapp" />
+  <link rel="stylesheet" href="assets/css/amazeui.min.css"/>
+  <style>
+    .header {
+      text-align: center;
+    }
+    .header h1 {
+      font-size: 200%;
+      color: #333;
+      margin-top: 30px;
+    }
+    .header p {
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+<div class="header">
+  <div class="am-g">
+    <h1>修改密码</h1>
+    <p>
+        <span style="color:red;">{$msg}</span>
+    <p>
+  </div>
+  <hr />
+</div>
+<div class="am-g">
+  <div class="am-u-lg-6 am-u-md-8 am-u-sm-centered">
+
+    <form method="post" class="am-form" action="/changepasswd.php">
+      <label for="email">原密码:</label>
+      <input type="password" name="oldpwd" id="oldpwd" value="">
+      <br>
+      <label for="password">密码:</label>
+      <input type="password" name="pwd1" id="pwd1" value="">
+      <br>
+       <label for="password">重复密码:</label>
+      <input type="password" name="pwd2" id="pwd2" value="">
+      <br>
+      <div class="am-cf">
+        <input type="submit" name="" value="修 改" class="am-btn am-btn-primary am-btn-sm am-fl">
+      </div>
+    </form>
+    <hr>
+    <p>© 2015 demo.17house.com.</p>
+  </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,5 @@
+@CHARSET "UTF-8";
+html, body, #sticker {height: 100%;}
+body > #sticker {height: auto; min-height: 100%;}
+#stickerCon {padding-bottom: 40px;} 
+#footer {margin-top:-40px; height: 40px; width: 100%; text-align: center; line-height: 40px; color: #ABA498; font-size: 12px; background: #fafafa; border-top:1px solid #E7E7E7;}

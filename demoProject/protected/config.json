@@ -1,0 +1,31 @@
+{
+    "mode" : "debug",
+    "session": {
+        "type" : "file"
+    },
+    "systemPath": {
+        "template":"/Users/chaosuper/17house/code_git/debugProject/demoProject/protected/template",
+        "class":"/Users/chaosuper/17house/code_git/debugProject/demoProject/protected/class",
+        "temp":"/Users/chaosuper/17house/code_git/debugProject/demoProject/protected/temp",
+        "log":"/Users/chaosuper/17house/code_git/debugProject/demoProject/protected/log"
+    },
+    "dataBases" : [
+        {
+            "type": "MySql",
+            "driver": "mysqli",
+            "host": "127.0.0.1",
+            "port": 3306,
+            "username": "root",
+            "password": "",
+            "database": "test",
+            "alias": "test"
+        }
+    ],
+    "redis" : {
+        "host": "127.0.0.1",
+        "port": 6379
+    },
+    "javascriptVsersion":0,
+    "cssVersion":0,
+    "test":true
+}

@@ -1,0 +1,16 @@
+Options +FollowSymLinks
+IndexIgnore */*
+RewriteEngine on
+
+#RewriteCond %{REQUEST_URI} ^/protected/
+#RewriteCond %{REQUEST_URI} !^/protected/index.php
+#RewriteRule ^protected/(.*) /404.html [R=permanent,L]
+# if a directory or a file exists, use it directly
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# otherwise forward it to index.php
+#RewriteRule . protected/index.php 
+RewriteRule ^(.*)$ /spp.php/$1 [QSA,PT,L]
+
+#RewriteRule "^protected"  404.html [L]

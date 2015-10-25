@@ -1,0 +1,27 @@
+{
+    "mode" : "online",
+    "session": {
+        "type" : "file"
+    },
+    "systemPath": {
+        "template":"/Users/chenshijie/Workspace/17house/demoProject/protected/template",
+        "class":"/Users/chenshijie/Workspace/17house/demoProject/protected/class",
+        "temp":"/Users/chenshijie/Workspace/17house/demoProject/protected/temp",
+        "log":"/Users/chenshijie/Workspace/17house/demoProject/protected/log"
+    },
+    "dataBases" : [
+        {
+            "type": "MySql",
+            "driver": "mysqli",
+            "host": "127.0.0.1",
+            "port": 3306,
+            "username": "root",
+            "password": "",
+            "database": "test",
+            "alias": "test"
+        }
+    ],
+    "javascriptVsersion":0,
+    "cssVersion":0,
+    "test":true
+}
